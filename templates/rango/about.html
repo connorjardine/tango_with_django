@@ -12,15 +12,15 @@
         
         <div>
             This tutorial has been put together
-			by <Connor Jardine><br />
+			by Connor Jardine<br />
         </div>
         
         <div>
             <br />
-            <img src="{% static "images/cat.jpg" %}"
-                 alt="Picture of cat" /> <!-- New line -->
-			<img src="{% media "cat.jpg" %}"
-                 alt="Picture of cat" /> <!-- New line -->
+            <img src="{% static "images/dog.jpg" %}"
+                 alt="Picture of dog" /> <!-- New line -->
+			<img src="{{ MEDIA_URL}}cat.jpg"
+				 alt="Picture of cat" /> <!-- New line -->
         </div>
     </body>
     
