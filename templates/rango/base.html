@@ -12,10 +12,11 @@
 </head>
 <body>
 	<div>
-	{% block sidebar_block %}
-		{% get_category_list category %}
-	{% endblock %}
+		{% block sidebar_block %}
+			{% get_category_list category %}
+		{% endblock %}
 	</div>
+	
 	<div>
 		{% block body_block %}
 		{% endblock %}
