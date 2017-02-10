@@ -17,10 +17,12 @@
         
         <div>
             <br />
-            <img src="{% static "images/dog.jpg" %}"
-                 alt="Picture of dog" /> <!-- New line -->
+            <img src="{% static "images/cat.jpg" %}"
+                 alt="Picture of cat" /> <!-- New line -->
 			<img src="{{ MEDIA_URL}}cat.jpg"
 				 alt="Picture of cat" /> <!-- New line -->
         </div>
+		<div>
+		<p>Visits: {{visits}}</p>
 	</div>
  {% endblock %}
